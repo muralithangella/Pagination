@@ -6,9 +6,10 @@
   "main": "src/index.tsx",
   "dependencies": {
     "react": "^18.0.0",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.0",
-    "react-bootstrap": "2.10.4"
+    "react-icons": "^5.2.1",
+    "react-scripts": "^5.0.0"
   },
   "devDependencies": {
     "@types/react": "18.2.38",
