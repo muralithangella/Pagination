@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.products_iterate {
+  border-radius: 2%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(182, 150, 241);
+}
+.pages {
+  padding: 4px;
+  border: 1px solid rgb(97, 45, 165);
+  height: 100%;
+  border-radius: 0.5px;
+}
