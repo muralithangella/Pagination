@@ -19,10 +19,14 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>E-Commerce App</h1>
+      <h1 className="heading_Products" style={{ color: "darkblue" }}>
+        E-Commerce App
+      </h1>
       <div>
         <ProductsList products={products} />
-        <Pagination total={total} page={page} setPages={setPages} />
+        {total > 0 && (
+          <Pagination total={total} page={page} setPages={setPages} />
+        )}
       </div>
     </div>
   );
